@@ -127,3 +127,55 @@
     background-color: pink;
     border: 1px solid black;
 }
+
+.block5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+
+     /* DEBUG */
+     background-color: grey;
+     border: 1px solid black;
+}
+
+.img-big{
+    height: 500px;
+    width: 70%;
+
+      /* DEBUG */
+      background-color: green;
+      border: 1px solid black;
+}
+
+.column-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+
+     /* DEBUG */
+     background-color: rgb(44, 44, 44);
+     border: 1px solid black;
+
+}
+
+.li-big{
+
+    /* DEBUG */
+    background-color: pink;
+    border: 1px solid black;
+    height: 400px;
+    width: 200px;
+}
+
+.li{
+
+    /* DEBUG */
+    background-color: aquamarine;
+    border: 1px solid black;
+    height: 400px;
+    width: calc(70% / 5.8)
+}
+
+
