@@ -153,6 +153,7 @@
     align-items: center;
     justify-content: center;
     height: 600px;
+    width: 100%;
 
      /* DEBUG */
      background-color: rgb(44, 44, 44);
@@ -161,12 +162,12 @@
 }
 
 .li-big{
-
+    
+    flex-basis: 33.33%;
     /* DEBUG */
     background-color: pink;
     border: 1px solid black;
     height: 400px;
-    width: 200px;
 }
 
 .li{
@@ -175,7 +176,7 @@
     background-color: aquamarine;
     border: 1px solid black;
     height: 400px;
-    width: calc(70% / 5.8)
+    width: 11.67%;
 }
 
 
