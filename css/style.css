@@ -163,7 +163,7 @@
 
 .li-big{
     
-    flex-basis: 33.33%;
+    flex-basis: 23.33%;
     /* DEBUG */
     background-color: pink;
     border: 1px solid black;
@@ -177,6 +177,40 @@
     border: 1px solid black;
     height: 400px;
     width: 11.67%;
+}
+
+.bottom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(44, 44, 44);
+    
+}
+
+
+.logo2{
+
+    
+
+    /* DEBUG */
+    background-color: orange;
+    border: 1px solid black;
+    height: 30px;
+    width: 70px;
+}
+
+.button{
+    
+
+        
+    
+        /* DEBUG */
+        background-color: orange;
+        border: 1px solid black;
+        height: 30px;
+        width: 70px;
+    
 }
 
 
