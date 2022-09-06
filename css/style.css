@@ -6,11 +6,34 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
+html{
+    
+    font-family: Whitney, Helvetica, Arial, sans-serif;
+    font-size: 100% ;
+
+}
+
+.flex{
+    display: flex;
+}
+
 /* HEADER */
+
+.wrapper-header{
+
+    width: 70%;
+
+
+    /* DEBUG */
+    background-color: orange;
+    border: 1px solid black;
+}
 
 
 .block0{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
 
@@ -22,31 +45,28 @@
 }
 
 .logo{
-
-    width: 10%;
-
-    /* DEBUG */
-    background-color: orange;
+    width: 20%;
+     /* DEBUG */
     border: 1px solid black;
+    
 }
 
 .lista{
-    width: 40%;
-    /* DEBUG */
-    background-color: orange;
-    border: 1px solid black;
-
+    flex-grow: 1;
+     /* DEBUG */
+     border: 1px solid black;
 }
 
 .login{
-    width: 10%;
+    width: 20%;
+    
     /* DEBUG */
-    background-color: orange;
-    border: 1px solid black;
+     border: 1px solid black;
 }
 
+
+
 .block1{
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 400px;
@@ -67,7 +87,6 @@
 
 .block2{
 
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 400px;
@@ -98,7 +117,6 @@
 }
 
 .block3{
-    display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
@@ -129,7 +147,6 @@
 }
 
 .block5{
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 650px;
@@ -149,7 +166,6 @@
 }
 
 .column-footer{
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 600px;
@@ -179,13 +195,12 @@
     width: 11.67%;
 }
 
-.bottom-footer{
-    display: flex;
+.wrapper-bottom-footer{
     align-items: center;
     justify-content: space-between;
     height: 100px;
     background-color: rgb(44, 44, 44);
-    
+    border-top: 2px solid white;
 }
 
 
@@ -201,10 +216,6 @@
 }
 
 .button{
-    
-
-        
-    
         /* DEBUG */
         background-color: orange;
         border: 1px solid black;
